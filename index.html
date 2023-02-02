@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>without html table</title>
+    <link ref="stylesheet" type="text/css" href="5b.css" />
+  </head>
+  <body>
+    <div class="table">
+      <div class="table-row1">
+        <div class="table-col" style="height: 50px"></div>
+        <div class="table-col" style="height: 50px">Name</div>
+        <div class="table-col" style="height: 50px">Mass(10^24 kg)</div>
+        <div class="table-col" style="height: 50px">Diameter kg</div>
+        <div class="table-col" style="height: 50px">Note</div>
+      </div>
+      <div class="table-row2">
+        <div class="table-col" style="font-weight: bold; height: 80px">
+          Terrestial planet
+        </div>
+        <div class="table-col">
+          <div class="table-col" style="font-weight: bold">Mercury</div>
+          <div class="table-col" style="font-weight: bold">Venue</div>
+          <div class="table-col" style="font-weight: bold">Earth</div>
+          <div class="table-col" style="font-weight: bold">Mars</div>
+        </div>
+
+        <div class="table-col">
+          <div class="table-col">0.330</div>
+          <div class="table-col">4.87</div>
+          <div class="table-col">5.97</div>
+          <div class="table-col">0.642</div>
+        </div>
+
+        <div class="table-col">
+          <div class="table-col">4.879</div>
+          <div class="table-col">12,104</div>
+          <div class="table-col">12,756</div>
+          <div class="table-col">6,796</div>
+        </div>
+
+        <div class="table-col">
+          <div class="table-col">Closet to the Sun</div>
+          <div class="table-col">-</div>
+          <div class="table-col">Our world</div>
+          <div class="table-col">The red planet</div>
+        </div>
+      </div>
+
+      <div class="table-row3">
+        <div class="table-col" style="font-weight: bold; height: 85px">
+          Jovian planets
+          <div class="table-col">
+            <div
+              class="table-col"
+              style="
+                font-weight: bold;
+                padding-left: 30px;
+                width: 30px;
+                height: 40px;
+                padding-right: 70px;
+                margin: 20px;
+                position: absolute;
+                top: 128px;
+                left: 90px;
+              "
+            >
+              Grid
+            </div>
+            <div
+              class="table-col"
+              style="
+                font-weight: bold;
+                padding-left: 30px;
+                width: 5px;
+                height: 40px;
+                padding-right: 65px;
+                margin: 20px;
+                position: absolute;
+                top: 170px;
+                left: 90px;
+              "
+            >
+              Ice
+            </div>
+          </div>
+        </div>
+
+        <div class="table-col">
+          <div class="table-col" style="font-weight: bold">Jupiter</div>
+          <div class="table-col" style="font-weight: bold">Saturn</div>
+          <div class="table-col" style="font-weight: bold">Uranus</div>
+          <div class="table-col" style="font-weight: bold">Neptune</div>
+        </div>
+
+        <div class="table-col">
+          <div class="table-col">1898</div>
+          <div class="table-col">568</div>
+          <div class="table-col">86.8</div>
+          <div class="table-col">102</div>
+        </div>
+
+        <div class="table-col">
+          <div class="table-col">142,984</div>
+          <div class="table-col">120,536</div>
+          <div class="table-col">51,118</div>
+          <div class="table-col">49,528</div>
+        </div>
+
+        <div class="table-col">
+          <div class="table-col">The largest Planet</div>
+          <div class="table-col">-</div>
+          <div class="table-col">-</div>
+          <div class="table-col">-</div>
+        </div>
+      </div>
+
+      <div class="table-row4">
+        <div class="table-col" style="font-weight: bold; height: 51px">
+          Dwarf planets
+        </div>
+        <div class="table-col">
+          <div class="table-col" style="font-weight: bold; height: 51px">
+            Pluto
+          </div>
+        </div>
+
+        <div class="table-col">
+          <div class="table-col" style="height: 51px">0.0146</div>
+        </div>
+
+        <div class="table-col">
+          <div class="table-col" style="height: 51px">2,370</div>
+        </div>
+
+        <div class="table-col">
+          <div class="table-col">
+            Declassified as a planet in 2006, but this
+            <span>remains controversial</span> .
+          </div>
+        </div>
+      </div>
+    </div>
+    <style>
+      table {
+        display: table;
+        width: 200px;
+        border: 1px solid black;
+      }
+
+      .table-row1 {
+        display: table-row;
+        width: 10px;
+        clear: both;
+        font-weight: bold;
+      }
+
+      .table-col {
+        float: left;
+        display: table-column;
+        width: 200px;
+        border: 1px solid #ccc;
+      }
+
+      .table-row2 {
+        display: table-row;
+        width: 10px;
+        clear: both;
+        height: 30px;
+      }
+
+      .flex {
+        flex-direction: column;
+      }
+      .table-row3 {
+        display: table-row;
+        width: 10px;
+        clear: both;
+        height: 30px;
+      }
+      .table-row4 {
+        display: table-row;
+        width: 10px;
+        clear: both;
+        height: 50px;
+      }
+
+      span {
+        text-decoration: underline;
+        color: blue;
+      }
+    </style>
+  </body>
+</html>

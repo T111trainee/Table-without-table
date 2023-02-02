@@ -1,0 +1,47 @@
+table {
+  display: table;
+  width: 200px;
+  border: 1px solid black;
+}
+
+.table-row1 {
+  display: table-row;
+  width: 10px;
+  clear: both;
+  font-weight: bold;
+}
+
+.table-col {
+  float: left;
+  display: table-column;
+  width: 200px;
+  border: 1px solid #ccc;
+}
+
+.table-row2 {
+  display: table-row;
+  width: 10px;
+  clear: both;
+  height: 30px;
+}
+
+.flex {
+  flex-direction: column;
+}
+.table-row3 {
+  display: table-row;
+  width: 10px;
+  clear: both;
+  height: 30px;
+}
+.table-row4 {
+  display: table-row;
+  width: 10px;
+  clear: both;
+  height: 50px;
+}
+
+span {
+  text-decoration: underline;
+  color: blue;
+}
